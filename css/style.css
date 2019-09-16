@@ -1,0 +1,23 @@
+.header {
+  background-image: url("../img/header.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 1000px; }
+  .header .container {
+    width: 1200px;
+    margin: 0 auto; }
+
+html {
+  box-sizing: border-box;
+  font-family: 'DM Serif Text', serif; }
+
+*,
+::before,
+::after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
