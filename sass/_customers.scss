@@ -1,0 +1,14 @@
+.customers {
+    color: $color-blue;
+    &__container {
+        width: 1200px;
+        margin: 5rem auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__item {
+        width: 350px;
+        max-height: max-content;
+        background-color: $color-white;
+    }
+}

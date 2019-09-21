@@ -1,7 +1,11 @@
+@import "variables";
 @import "header.scss";
-@import "variables.scss";
 @import "card.scss";
-
+@import "info.scss";
+@import "cleaning";
+@import "select";
+@import "customers";
+@import "footer";
 
 html {
     box-sizing: border-box;

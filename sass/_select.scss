@@ -1,0 +1,25 @@
+.select {
+    color: $color-blue;
+    background-color: $color-white;
+    &__container {
+        width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, auto);
+    }
+    &__top {
+        grid-column: 1 / 2;
+        grid-row: 1 / 4;
+    }
+    &__bottom {
+        grid-column: 1 / 2;
+        grid-row: 4 / 7;
+    }
+    &__price {
+        grid-column: 2 / 3;
+        grid-row: 1 / 7;
+        color: $color-white;
+        background-color: $color-blue;
+    }
+}
